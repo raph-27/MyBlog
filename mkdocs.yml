@@ -1,0 +1,52 @@
+site_name: Raphael De Luis
+theme:
+    name: material
+    palette:
+      primary: deep purple 
+      scheme: slate
+    features:
+      -content.code.annotate
+      -content.code.copy
+      - content.tabs.link
+      - header.autohide
+      - announce.dismiss
+      - navigation.indexes 
+      - navigation.sections 
+      - navigation.tabs 
+      - navigation.top
+      - navigation.tracking - search.highlight
+      - search.share
+      - search.suggest
+    font:
+      code: Fira Code
+      text: Roboto
+    markdown_extensions:
+    - codehilite
+    - admonition
+    - toc:
+        permalink: true
+    - pymdownx.superfences
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+    nav:
+      - Home: index.md
+      - Certifications: Certifications.md  
+      - Projects: Projects.md
+
+    extra_css:
+    - assets/stylesheets/extra.css
+
+    extra:
+      social:
+        - icon: fontawesome/brands/mastodon
+          link: https://fosstodon.org/@squidfunk
+          name: squidfunk on Fosstodon
+
+
+
+
