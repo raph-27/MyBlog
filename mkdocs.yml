@@ -31,7 +31,11 @@ theme:
         - Fortinet: Certifications/Fortinet.md
         - Six Sigma: Certifications/Six Sigma.md
         - TP-Link: Certifications/TP-Link.md 
-      - Projects: Projects.md
+      - Projects:
+        - Home Lab: Projects/Home Lab.md
+        - Personal Website: Projects/Personal Website.md
+        - Raspberry Pi: Projects/Raspberry Pi.md
+      - My Next Goal: My next goal.md
 
 extra_css:
   - assets/stylesheets/extra.css
