@@ -24,13 +24,13 @@ theme:
       - pymdownx.highlight
       - pymdownx.inlinehilite
       - pymdownx.keys
-      - pymdownx.emoji:
-          emoji_index: !!python/name:materialx.emoji.twemoji
-          emoji_generator: !!python/name:materialx.emoji.to_svg
-
     nav:
       - Home: index.md
-      - Certifications: Certifications.md  
+      - Certifications:
+        - AWS Cloud Practitioner: Certifications/AWS Cloud Practitioner.md
+        - Fortinet: Certifications/Fortinet.md
+        - Six Sigma: Certifications/Six Sigma.md
+        - TP-Link: Certifications/TP-Link.md 
       - Projects: Projects.md
 
 extra_css:
