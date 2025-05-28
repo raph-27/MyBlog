@@ -1,0 +1,29 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@400;700&display=swap');
+
+/* Apply Roboto to body text */
+.md-typeset,
+.md-typeset p,
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff; /* example: blue */
+}
+
+/* Apply Fira Code to code elements */
+.md-typeset code,
+.md-typeset pre {
+  font-family: 'Fira Code', monospace;
+}
+
+.md-content__inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+}
+
